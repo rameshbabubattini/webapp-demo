@@ -33,8 +33,8 @@ for (int i = 1; i <= 100; i++) {
 			for (int i = 0; i < reports.size(); i++) {
 				%>
 				<tr>
-					<td><%= reports.get(0).getId() %></td>
-					<td><%= reports.get(1).getId() %></td>
+					<td><%= reports.get(i).getId() %></td>
+					<td><%= reports.get(i).getName() %></td>
 					<td><a href="">Click to download</a></td>
 				</tr>
 				<%
